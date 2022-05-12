@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "CAAA,SAUC,EATA,UAAW,EAAE,QAAS,EACtB,EAAG,EAAG,iCAAkC,EACxC,EAAG,EAAG,qOAGmD,EACzD,UAAW,EAAE,KAAM,EACnB,SAAU,EAAE,KAAM,EAClB,WAAY,EAAE,IAAK,EAKpB,gBAAkB,EACd,UAAW,EAAE,mBAAoB,EACjC,MAAO,EAJC,EAAO",
+"sources": ["../scss/icon.scss"],
+"names": [],
+"file": "icon.min.css"
+}

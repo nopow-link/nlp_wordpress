@@ -1,0 +1,19 @@
+{
+    "name": "nopow-link/nlp_wordpress",
+    "description": "Nopow-Link plugin for wordpress.",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "NlpWordpress\\": "src/",
+            "NlpWordpress\\Exception": "src/exception"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nopow-Link",
+            "email": "nopow.link@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
