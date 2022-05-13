@@ -4,8 +4,10 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "NlpWordpress\\": "src/",
-            "NlpWordpress\\Exception": "src/exception"
+            "NlpWordpress\\": "./src/",
+            "NlpWordpress\\Controller\\": "./src/controller",
+            "NlpWordpress\\Exception\\": "./src/exception",
+            "NlpWordpress\\View\\Admin\\": "./src/view/admin"
         }
     },
     "authors": [

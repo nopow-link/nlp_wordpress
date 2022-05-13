@@ -32,4 +32,4 @@ NlpWordpress\Settings::getInstance([
 
 register_activation_hook(__FILE__ , "NlpWordpress\Plugin::install");
 
-NlpWordpress\Plugin::run()
+NlpWordpress\Plugin::run();

@@ -12,7 +12,7 @@
 
 $nlp-icon : "\e900";
 
-.nlp-icon::before {
+.dashicons-nlp-icon::before {
     font-family: 'icomoon' !important;
     content: $nlp-icon;
 }
