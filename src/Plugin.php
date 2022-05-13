@@ -53,7 +53,7 @@ class Plugin
 			$menu_title,
 			"manage_options",
 			$main_page->get_slug(),
-			array($main_page->get_view()),
+			array($main_page, 'get_view'),
 			'dashicons-nlp-icon',
 			4
 		);

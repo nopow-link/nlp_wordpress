@@ -7,6 +7,7 @@
             "NlpWordpress\\": "./src/",
             "NlpWordpress\\Controller\\": "./src/controller",
             "NlpWordpress\\Exception\\": "./src/exception",
+            "NlpWordpress\\Util\\": "./src/util",
             "NlpWordpress\\View\\Admin\\": "./src/view/admin"
         }
     },
@@ -17,5 +18,7 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {
+        "nopow-link/nll_php": "^0.1.0"
+    }
 }

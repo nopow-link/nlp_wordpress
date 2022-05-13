@@ -2,6 +2,9 @@
 
 namespace NlpWordpress;
 
+use NllLib\ApiSettings;
+use NllLib\Utils\Path;
+
 use NlpWordpress\Exception\SettingsExcetpion;
 
 class Settings
@@ -12,7 +15,13 @@ class Settings
 
 	private function __construct(array $settings = [])
 	{
-		$this->settings = $settings;
+		$path = new Path(WP_CONTENT_DIR);
+
+		$this->settings 	= $settings;
+
+		$this->api_settings	= ApiSettings::getInstance();
+		$this->api_settings->setUrl($this->url);
+		$this->api_settings->setCacheFolder($path->absolut('./cache'));
 	}
 
 	public static function getInstance(array $settings = [])
@@ -36,5 +45,10 @@ class Settings
 		{
 			echo $e;
 		}
+	}
+
+	public function get_api_settings()
+	{
+		return $this->api_settings;
 	}
 }
