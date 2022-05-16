@@ -5,6 +5,7 @@ namespace NlpWordpress;
 use NlpWordpress\Settings;
 use NlpWordpress\Controller\Admin;
 use NlpWordpress\Controller\Generic;
+use NlpWordpress\Controller\Virtual;
 use NlpWordpress\View\Admin\Certify;
 
 class Plugin
@@ -65,5 +66,6 @@ class Plugin
 		if (is_admin())
 			New Admin();
 		new Generic();
+		new Virtual();
 	}
 }

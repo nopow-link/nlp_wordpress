@@ -29,6 +29,7 @@ class Rewrite
 
 	public function endBuffer()
 	{
-		ob_end_flush();
+		if (ob_get_level() > 1000)
+			ob_end_flush();
 	}
 }

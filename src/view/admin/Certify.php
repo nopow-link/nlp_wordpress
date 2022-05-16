@@ -62,6 +62,7 @@ class Certify
 		$this->success 		= new Message('success');
 
 		$api_key = $this->cache->keyRetrieve();
+		var_dump($this->errors);
 		?>
 			<div class="wrap">
 				<h1 class="pb-1">Nopow-Link</h1>
@@ -80,7 +81,7 @@ class Certify
 									<div class="errors">
 										Please fix the following Validation Errors:
 										<ul>
-											<li> <?= implode('</li><li>', $this->error->get_messages()); ?></li>
+											<li> <?= implode('</li><li>', $this->errors->get_messages()); ?></li>
 										</ul>
 									</div>
 								<?php
@@ -99,7 +100,8 @@ class Certify
 						?>
 						<div class="form-field form-required term-name-wrap px-3">
 							<p>Enter your plugin security key of your account. <a href="#">Get help</a></p>
-							<input class="w-100" placeholder="Security key" name="security-key" id="tag-name" type="text" value="<?= $api_key ?>" size="40" aria-required="true">
+							<input class="w-100" placeholder="Security key" name="api-key" id="tag-name" type="text" value="<?= $api_key ?>" size="40" aria-required="true">
+							<input type="hidden" name="action" value="<?= $this->get_slug() ?>">
 						</div>
 						<div class="form-wrap edit-term-notes mt-1 px-3">
 							<p>Nopow-Link API keys are free, never trust someone who want to sell you a key. API key is only to connect your Nopow-Link account to your WordPress.</p>
@@ -133,6 +135,7 @@ class Certify
 			try
 			{
 				$request->certify($api_key);
+				var_dump("Hello");
 				$this->success->set_messages([
 					"Your plugin has been certify successfuly. Welcome!"
 				]);
@@ -143,6 +146,6 @@ class Certify
 			}
 		}
 		wp_redirect($url);
-		die();
+		exit;
 	}
 }

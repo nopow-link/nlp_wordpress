@@ -19,7 +19,7 @@ if (is_readable( __DIR__ . '/vendor/autoload.php' ))
 
 NlpWordpress\Settings::getInstance([
     'name'		=> 'Nopow-Link',
-    'url'		=> 'https://www.nopow-link.com/',
+    'url'		=> 'http://dev.nopow-link.com:8000/',
     'version'	=> '0.0.0',
     'debug'		=> True,
     'root'		=> __DIR__,

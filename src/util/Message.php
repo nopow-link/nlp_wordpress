@@ -48,6 +48,6 @@ class Message
 	public function set_messages(array $message)
 	{
         if (!empty($message))
-            set_transient($this->identifier . $this->id, $messages);
+            set_transient($this->identifier . $this->id, $message);
     }
 }
