@@ -8,6 +8,7 @@
             "NlpWordpress\\Controller\\": "./src/controller",
             "NlpWordpress\\Exception\\": "./src/exception",
             "NlpWordpress\\Util\\": "./src/util",
+            "NlpWordpress\\View\\": "./src/view/",
             "NlpWordpress\\View\\Admin\\": "./src/view/admin"
         }
     },
