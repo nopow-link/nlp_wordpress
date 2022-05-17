@@ -21,12 +21,13 @@ class Certify extends VirtualPage
         {
             $key = $this->params['key'];
             $check = $this->cache->keyRetrieve();
+			if ( ! headers_sent() )
+				header('Content-Type: application/json; charset=' . get_option( 'blog_charset' ));
             if (strcmp($key, $check) == 0)
 			{
-                if ( ! headers_sent() )
-                    header('Content-Type: application/json; charset=' . get_option( 'blog_charset' ));
                 return "{'data': { 'valid' : True }}";
             }
+			return "{'data': { 'valid' : False }}";
         }
 	}
 }

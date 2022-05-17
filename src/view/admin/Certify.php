@@ -62,7 +62,6 @@ class Certify
 		$this->success 		= new Message('success');
 
 		$api_key = $this->cache->keyRetrieve();
-		var_dump($this->errors);
 		?>
 			<div class="wrap">
 				<h1 class="pb-1">Nopow-Link</h1>
@@ -132,16 +131,19 @@ class Certify
 		if (!empty($_POST['api-key']))
 		{
 			$api_key = $_POST['api-key'];
+			$this->cache->keySave($api_key, "PT30S");
 			try
 			{
 				$request->certify($api_key);
-				var_dump("Hello");
+				$this->cache->keyDelete();
+				$this->cache->keySave($api_key);
 				$this->success->set_messages([
 					"Your plugin has been certify successfuly. Welcome!"
 				]);
 			}
 			catch (NllLibCertifyException $e)
 			{
+				$this->cache->keyDelete();
 				$this->errors->set_messages([$e]);
 			}
 		}

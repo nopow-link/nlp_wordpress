@@ -11,7 +11,6 @@ class Rewrite
 	{
 		$request = new ApiRequest();
 		$this->data = $request->collect($_SERVER['REQUEST_URI']);
-
 		add_action('template_redirect', array($this, 'startBuffer'), 0);
 		add_action("shutdown", array($this, 'endBuffer'), 0);
 	}
