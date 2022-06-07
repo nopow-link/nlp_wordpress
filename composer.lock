@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e51b20cfbe399981c384acffe7e7ab3c",
+    "content-hash": "1cbb99c1c4b349dc245549304db940f9",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
-            "version": "7.4.2",
+            "version": "7.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "ac1ec1cd9b5624694c3a40be801d94137afb12b4"
+                "reference": "74a8602c6faec9ef74b7a9391ac82c5e65b1cdab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/ac1ec1cd9b5624694c3a40be801d94137afb12b4",
-                "reference": "ac1ec1cd9b5624694c3a40be801d94137afb12b4",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/74a8602c6faec9ef74b7a9391ac82c5e65b1cdab",
+                "reference": "74a8602c6faec9ef74b7a9391ac82c5e65b1cdab",
                 "shasum": ""
             },
             "require": {
@@ -112,9 +112,23 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/guzzle/issues",
-                "source": "https://github.com/guzzle/guzzle/tree/7.4.2"
+                "source": "https://github.com/guzzle/guzzle/tree/7.4.3"
             },
-            "time": "2022-03-20T14:16:28+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/GrahamCampbell",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/Nyholm",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/guzzlehttp/guzzle",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-05-25T13:24:33+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -184,6 +198,20 @@
                 "issues": "https://github.com/guzzle/promises/issues",
                 "source": "https://github.com/guzzle/promises/tree/1.5.1"
             },
+            "funding": [
+                {
+                    "url": "https://github.com/GrahamCampbell",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/Nyholm",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/guzzlehttp/promises",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2021-10-22T20:56:57+00:00"
         },
         {
@@ -285,20 +313,34 @@
                 "issues": "https://github.com/guzzle/psr7/issues",
                 "source": "https://github.com/guzzle/psr7/tree/2.2.1"
             },
+            "funding": [
+                {
+                    "url": "https://github.com/GrahamCampbell",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/Nyholm",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/guzzlehttp/psr7",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2022-03-20T21:55:58+00:00"
         },
         {
             "name": "nopow-link/nll_php",
-            "version": "0.1.2",
+            "version": "0.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nopow-link/nll_php.git",
-                "reference": "7fee9159dc959ad5a83acd2cc8cf8e590df95093"
+                "reference": "f3f195a70edd800adbdd8d4da7a9c68b6965a512"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nopow-link/nll_php/zipball/7fee9159dc959ad5a83acd2cc8cf8e590df95093",
-                "reference": "7fee9159dc959ad5a83acd2cc8cf8e590df95093",
+                "url": "https://api.github.com/repos/nopow-link/nll_php/zipball/f3f195a70edd800adbdd8d4da7a9c68b6965a512",
+                "reference": "f3f195a70edd800adbdd8d4da7a9c68b6965a512",
                 "shasum": ""
             },
             "require": {
@@ -330,9 +372,9 @@
             "description": "Library for php Nopow-Link plugins",
             "support": {
                 "issues": "https://github.com/nopow-link/nll_php/issues",
-                "source": "https://github.com/nopow-link/nll_php/tree/v0.1.2"
+                "source": "https://github.com/nopow-link/nll_php/tree/v0.1.3"
             },
-            "time": "2022-05-17T10:12:59+00:00"
+            "time": "2022-06-07T07:51:28+00:00"
         },
         {
             "name": "phpfastcache/phpfastcache",
@@ -536,6 +578,12 @@
                 "issues": "https://github.com/predis/predis/issues",
                 "source": "https://github.com/predis/predis/tree/v1.1.10"
             },
+            "funding": [
+                {
+                    "url": "https://github.com/sponsors/tillkruss",
+                    "type": "github"
+                }
+            ],
             "time": "2022-01-05T17:46:08+00:00"
         },
         {
@@ -842,6 +890,20 @@
             "support": {
                 "source": "https://github.com/symfony/deprecation-contracts/tree/v2.5.1"
             },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2022-01-02T09:53:40+00:00"
         }
     ],

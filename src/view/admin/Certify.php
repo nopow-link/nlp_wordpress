@@ -131,15 +131,13 @@ class Certify
 		if (!empty($_POST['api-key']))
 		{
 			$api_key = $_POST['api-key'];
-			$this->cache->keySave($api_key, "PT30S");
+			$this->cache->keySave($api_key);
 			try
 			{
 				$request->certify($api_key);
-				$this->cache->keyDelete();
-				$this->cache->keySave($api_key);
 				$this->success->set_messages([
 					"Your plugin has been certify successfuly. Welcome!"
-				]);
+					]);
 			}
 			catch (NllLibCertifyException $e)
 			{
