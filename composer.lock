@@ -331,16 +331,16 @@
         },
         {
             "name": "nopow-link/nll_php",
-            "version": "0.1.3",
+            "version": "0.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nopow-link/nll_php.git",
-                "reference": "f3f195a70edd800adbdd8d4da7a9c68b6965a512"
+                "reference": "ece3b86c356ee1bfcf0c17afa9ce5c8651aa93df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nopow-link/nll_php/zipball/f3f195a70edd800adbdd8d4da7a9c68b6965a512",
-                "reference": "f3f195a70edd800adbdd8d4da7a9c68b6965a512",
+                "url": "https://api.github.com/repos/nopow-link/nll_php/zipball/ece3b86c356ee1bfcf0c17afa9ce5c8651aa93df",
+                "reference": "ece3b86c356ee1bfcf0c17afa9ce5c8651aa93df",
                 "shasum": ""
             },
             "require": {
@@ -372,9 +372,9 @@
             "description": "Library for php Nopow-Link plugins",
             "support": {
                 "issues": "https://github.com/nopow-link/nll_php/issues",
-                "source": "https://github.com/nopow-link/nll_php/tree/v0.1.3"
+                "source": "https://github.com/nopow-link/nll_php/tree/v0.1.4"
             },
-            "time": "2022-06-07T07:51:28+00:00"
+            "time": "2022-06-13T10:54:28+00:00"
         },
         {
             "name": "phpfastcache/phpfastcache",
