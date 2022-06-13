@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1cbb99c1c4b349dc245549304db940f9",
+    "content-hash": "fd50de16c9705a7c54b91b03106d587b",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -331,16 +331,16 @@
         },
         {
             "name": "nopow-link/nll_php",
-            "version": "0.1.4",
+            "version": "0.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nopow-link/nll_php.git",
-                "reference": "ece3b86c356ee1bfcf0c17afa9ce5c8651aa93df"
+                "reference": "e9fca8990923a4a4086421b5ace6783ca26e32bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nopow-link/nll_php/zipball/ece3b86c356ee1bfcf0c17afa9ce5c8651aa93df",
-                "reference": "ece3b86c356ee1bfcf0c17afa9ce5c8651aa93df",
+                "url": "https://api.github.com/repos/nopow-link/nll_php/zipball/e9fca8990923a4a4086421b5ace6783ca26e32bf",
+                "reference": "e9fca8990923a4a4086421b5ace6783ca26e32bf",
                 "shasum": ""
             },
             "require": {
@@ -372,9 +372,9 @@
             "description": "Library for php Nopow-Link plugins",
             "support": {
                 "issues": "https://github.com/nopow-link/nll_php/issues",
-                "source": "https://github.com/nopow-link/nll_php/tree/v0.1.4"
+                "source": "https://github.com/nopow-link/nll_php/tree/v0.1.5"
             },
-            "time": "2022-06-13T10:54:28+00:00"
+            "time": "2022-06-13T13:00:01+00:00"
         },
         {
             "name": "phpfastcache/phpfastcache",
