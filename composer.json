@@ -20,6 +20,6 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "nopow-link/nll_php": "^0.1.3"
+        "nopow-link/nll_php": "^0.1.5"
     }
 }
