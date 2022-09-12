@@ -21,7 +21,7 @@ class Settings
 
 		$this->api_settings	= ApiSettings::getInstance();
 		$this->api_settings->setUrl($this->url);
-		$this->api_settings->setCacheFolder($path->absolut('./cache'));
+		$this->api_settings->setCacheFolder($path->absolut('./cache/nlp_wordpress'));
 	}
 
 	public static function getInstance(array $settings = [])

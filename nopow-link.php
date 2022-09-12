@@ -1,14 +1,14 @@
 <?php
 /**
  * @package nopow-link
- * @version 0.0.1
+ * @version 0.0.2
  */
 /*
 Plugin Name: Nopow-Link
 Plugin URI:
 Description: This is official plugin needed to work with website <a href='https://www.nopow-link.com/'>https://www.nopow-link.com/</a>
 Author: Nopow-Link
-Version: 0.0.1
+Version: 0.0.2
 Author URI: https://nopow-link.com/
 */
 
@@ -20,7 +20,7 @@ if (is_readable( __DIR__ . '/vendor/autoload.php' ))
 NlpWordpress\Settings::getInstance([
     'name'		=> 'Nopow-Link',
     'url'		=> 'https://www.nopow-link.com/',
-    'version'	=> '0.0.1',
+    'version'	=> '0.0.2',
     'debug'		=> True,
     'root'		=> __DIR__,
     'site'		=> [
